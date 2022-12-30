@@ -1,6 +1,6 @@
 # PUTIN IS GRINCH
 
-![Switchess](screenshots/screen01.png)
+![TitleImage](Screenshots/screen01.png)
 
 Developed for the Game Creator's Club at Lusofona University.
 This month, the theme was a random one from suggestions (think Secret Santa but with themes), and I got Putin Is Grinch.
@@ -19,7 +19,7 @@ Some of the prompts used:
 * Midjourney: "Putin sneaking next to sledge full of gifts in the middle on the night in the style of pixel art"
 * Midjourney: "putin sneaking in front of sleigh full of gifts in the night in pixel art"
 
-![Switchess](screenshots/screen02.png)
+![GameImage](Screenshots/screen02.png)
 
 I also took the opportunity to roll a new kit bashing system (for a workshop I'm giving in a couple of months). This is just a prototype, so it will change before that.
 
