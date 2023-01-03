@@ -56,6 +56,14 @@ public class Trigger : MonoBehaviour
     public void Action_EnableTrigger() => enableTrigger = true;
     public void Action_DisableTrigger() => enableTrigger = false;
 
+    public void Action_PlaySound(AudioClip clip)
+    {
+        float volume = Random.Range(0.8f, 1.0f);
+        float pitch = Random.Range(0.8f, 1.2f);
+
+        SoundManager.PlaySound(clip, volume, pitch);
+    }
+
     public virtual void ExecuteTrigger()
     {
         if (!enableTrigger) return;

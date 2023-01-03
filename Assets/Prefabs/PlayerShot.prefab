@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5355789543418954081}
   - component: {fileID: -1499473827678865378}
   - component: {fileID: 6753931385610017032}
+  - component: {fileID: 6152975302974081065}
   m_Layer: 9
   m_Name: PlayerShot
   m_TagString: Untagged
@@ -151,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae2c1716b40372e42846e2dac5af60c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  description: 
   enableTrigger: 1
   triggers:
     m_PersistentCalls:
@@ -183,6 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83524a48de9f8e54e889b35b0981a974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  description: 
   enableTrigger: 1
   triggers:
     m_PersistentCalls:
@@ -203,3 +206,25 @@ MonoBehaviour:
   layers:
     serializedVersion: 2
     m_Bits: 128
+  invulnerabilityDuration: 0
+  onInvulnerabilityStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onInvulnerabilityEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6152975302974081065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5355789543418954094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600d2bf40b7aacf479d62abb2271feeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 61799650bcae73e448fa03652ca32d1b, type: 3}
+  volume: {x: 0.4, y: 0.6}
+  pitch: {x: 0.85, y: 1.15}

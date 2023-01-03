@@ -1034,13 +1034,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8235095503280612934}
-        m_TargetAssemblyTypeName: UnityEngine.Rigidbody2D, UnityEngine
-        m_MethodName: set_gravityScale
-        m_Mode: 4
+      - m_Target: {fileID: 8235095503280612929}
+        m_TargetAssemblyTypeName: Trigger, Assembly-CSharp
+        m_MethodName: Action_PlaySound
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 8300000, guid: 5fd06275fd45c44419185c679f91dd43, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 1
           m_StringArgument: 
@@ -11345,6 +11345,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Win:5
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 8235095503280612929}
+        m_TargetAssemblyTypeName: Trigger, Assembly-CSharp
+        m_MethodName: Action_PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 748c006d58ddb3d48aef9562df5a79a3, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
   variable: {fileID: 11400000, guid: 71ece04c898364341831e4071caa42ac, type: 2}

@@ -71,6 +71,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 6152975302974081065, guid: 44d320c5749cc9540a59520fdcba9d31, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6e360958ce531ad4ca3ea5f7bc5fdd0c, type: 3}
     - target: {fileID: 6753931385610017032, guid: 44d320c5749cc9540a59520fdcba9d31, type: 3}
       propertyPath: layers.m_Bits
       value: 64

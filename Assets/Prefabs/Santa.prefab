@@ -5045,6 +5045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83524a48de9f8e54e889b35b0981a974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  description: 
   enableTrigger: 1
   triggers:
     m_PersistentCalls:
@@ -5070,6 +5071,18 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: -1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 791573127111385591}
+        m_TargetAssemblyTypeName: Trigger, Assembly-CSharp
+        m_MethodName: Action_PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 748c006d58ddb3d48aef9562df5a79a3, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -5171,6 +5184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c7d487d761c1541a7b43ad2deda261, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  description: 
   enableTrigger: 1
   triggers:
     m_PersistentCalls:
@@ -5311,6 +5325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92f09a4226000ff419618ed53fda638e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  description: 
   enableTrigger: 1
   triggers:
     m_PersistentCalls:
@@ -5330,4 +5345,6 @@ MonoBehaviour:
   variable: {fileID: 11400000, guid: c047fbbc305672d458b120b0dc79cf3d, type: 2}
   comparison: 0
   value: 0
+  percentageCompare: 0
   negate: 0
+  singleTrigger: 1
